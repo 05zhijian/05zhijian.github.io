@@ -66,6 +66,12 @@
   .skill-pills { display: flex; flex-wrap: wrap; gap: 10px; }
   .pill { background: var(--green-light); color: var(--green-dark); padding: 6px 14px; border-radius: 18px; font-size: 13.5px; font-weight: 600; }
 
+  .cta { margin-top: 20px; display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn { display: inline-block; background: var(--green); color: #fff; padding: 9px 18px; border-radius: 8px; font-size: 14px; font-weight: 600; text-decoration: none; }
+  .btn:hover { background: var(--green-dark); }
+  .btn.ghost { background: #fff; color: var(--green); border: 1px solid var(--green); }
+  .btn.ghost:hover { background: var(--green-light); }
+
   footer { margin-top: 48px; text-align: center; color: var(--gray); font-size: 13px; }
   @media (max-width: 560px) { .hero { padding: 24px; } }
 </style>
@@ -83,6 +89,10 @@
       <span>🎓 桂林理工大学 · 物联网工程 · 2027 届</span>
       <span>🐙 <a href="https://github.com/05zhijian" target="_blank">github.com/05zhijian</a></span>
       <span>📝 <a href="https://juejin.cn/spost/7669809799603273780" target="_blank">掘金文章</a></span>
+    </div>
+    <div class="cta">
+      <a class="btn" href="resume.pdf" target="_blank">📄 下载简历（PDF）</a>
+      <a class="btn ghost" href="https://github.com/05zhijian" target="_blank">GitHub 主页</a>
     </div>
   </section>
 
