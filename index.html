@@ -72,6 +72,11 @@
   .btn.ghost { background: #fff; color: var(--green); border: 1px solid var(--green); }
   .btn.ghost:hover { background: var(--green-light); }
 
+  /* video */
+  .video-box { text-align: center; background: var(--green-light); border: 1px solid var(--line); border-radius: 12px; padding: 20px; }
+  .video-box video { max-width: 100%; max-height: 520px; border-radius: 8px; box-shadow: 0 4px 16px rgba(0,0,0,.08); background: #000; }
+  .video-cap { margin-top: 12px; color: var(--gray); font-size: 13.5px; }
+
   footer { margin-top: 48px; text-align: center; color: var(--gray); font-size: 13px; }
   @media (max-width: 560px) { .hero { padding: 24px; } }
 </style>
@@ -154,6 +159,17 @@
         <a href="https://github.com/05zhijian/pocket-claude" target="_blank">github.com/05zhijian/pocket-claude →</a>
       </div>
 
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-title">演示视频 · knowledge-qa 知识库问答</div>
+    <div class="video-box">
+      <video controls preload="metadata" poster="knowledge-qa-demo-poster.png">
+        <source src="knowledge-qa-demo.mp4" type="video/mp4">
+        您的浏览器不支持 video 标签
+      </video>
+      <p class="video-cap">上传 PDF → 提问 → 流式回答 + 引用来源溯源(完整演示 23 秒)</p>
     </div>
   </section>
 
