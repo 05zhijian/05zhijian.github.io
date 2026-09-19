@@ -53,6 +53,7 @@
     display: flex; flex-direction: column;
   }
   .card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(74,139,91,.12); }
+  .card.wide { grid-column: 1 / -1; }
   .card .icon { font-size: 26px; }
   .card h3 { font-size: 16px; margin-top: 10px; }
   .card .badges { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; }
@@ -86,8 +87,8 @@
 
   <section class="hero">
     <div class="name">黄智健</div>
-    <div class="role">求职：移动端开发（Flutter）/ 前端开发 / AI 应用开发 · 2027 届 · 广州 / 长沙</div>
-    <p class="tagline">独立开发并开源多款产品：AI 陪伴日记 App（三层记忆架构）、uni-app 多端知识库问答（零框架自建 RAG）、Flutter 相册笔记 App、已上架微信的小程序。从设计、开发、测试到上线全流程独立完成。</p>
+    <div class="role">求职：AI 应用开发 / 移动端开发 · 2027 届 · 广州 / 长沙</div>
+    <p class="tagline">现任成都木易飞扬网络科技有限公司实习生，负责 App 开发流程 AI 化——把 HTML 原型到 SwiftUI 的转化蒸馏为可复用 Skill；独立设计并落地竞品情报自动化系统。此前独立开发并开源多款产品：AI 陪伴日记 App（三层记忆架构）、uni-app 多端知识库问答（零框架自建 RAG）、Flutter 相册笔记 App、已上架微信的小程序。</p>
     <div class="contact">
       <span>📞 13457826397</span>
       <span>✉️ 2868183904@qq.com</span>
@@ -102,6 +103,22 @@
   </section>
 
   <section class="section">
+    <div class="section-title">实习经历</div>
+    <div class="grid">
+      <div class="card wide">
+        <div class="icon">🏢</div>
+        <h3>成都木易飞扬网络科技有限公司 · 2026.08 – 至今</h3>
+        <div class="badges">
+          <span class="badge solid">App 开发流程 AI 化</span>
+          <span class="badge">移动端 / SwiftUI</span>
+          <span class="badge">竞品情报自动化</span>
+        </div>
+        <p>用 Codex 将 UI 提供的 HTML 原型转化为 SwiftUI 界面并跑通，把整个转化过程<b>蒸馏为可复用 Skill「HTML → SwiftUI」</b>，交付 10+ 个页面并推进到产品测试；与产品、UI 协作完成设计稿还原、需求评审与走查验收。同时独立设计并落地<b>竞品情报自动化系统</b>——每日无人值守采集 iOS 竞品、规则判定与相似度评分、日报自动部署上线。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
     <div class="section-title">项目</div>
     <div class="grid">
 
@@ -112,7 +129,7 @@
           <span class="badge solid">三层记忆架构</span>
           <span class="badge">开源 · AI 应用</span>
         </div>
-        <p>工作 / 情景 / 语义三层记忆：语义画像恒定注入、情景 n-gram 向量检索（余弦相似度 × 时间衰减）、工作最近轮次；consolidate 记忆整合升华；DeepSeek 流式 + 本地嵌入（不限流、确定性可测）；37 个单元测试 + 真机集成测试。</p>
+        <p>工作 / 情景 / 语义三层记忆：语义画像恒定注入、情景 n-gram 向量检索（余弦相似度 × 时间衰减）、工作最近轮次；consolidate 记忆整合升华；DeepSeek 流式 + 本地嵌入（不限流、确定性可测）；72 个单元测试 + 真机集成测试。</p>
         <a href="https://github.com/05zhijian/xinjing" target="_blank">github.com/05zhijian/xinjing →</a>
       </div>
 
@@ -205,7 +222,7 @@
     </div>
   </section>
 
-  <footer>黄智健 · 2027 届 · 求职移动端 / 前端 / AI 应用开发实习 · 可尽快到岗 · 作品集由 GitHub Pages 托管</footer>
+  <footer>黄智健 · 2027 届 · 求职 AI 应用开发 / 移动端开发 · 作品集由 GitHub Pages 托管</footer>
 </div>
 </body>
 </html>
